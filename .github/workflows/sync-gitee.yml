@@ -18,7 +18,7 @@ jobs:
         dst: github/isrc-cas
         dst_key: ${{ secrets.HUB_PRIVATE_KEY }}
         dst_token:  ${{ secrets.HUB_TOKEN }}
-        account_type: user
+        account_type: org
         timeout: 600
         debug: true
         force_update: false
@@ -32,7 +32,7 @@ jobs:
         dst: gitee/isrc-cas
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token:  ${{ secrets.GITEE_TOKEN }}
-        account_type: user
+        account_type: org
         timeout: 600
         debug: true
         force_update: false
